@@ -8,3 +8,10 @@ feature any one-sentence and one-line statements of advice that the programmer
 would like to provide to the person using the program. The source code for the
 `DisplayOutput` program must adhere to all of the requirements in the [Google
 Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+The programmer is also responsible for writing a one-paragraph 200-word reflection,
+stored in the file `writing/reflection.md`, that explains the challenges that
+you faced and the solutions you developed. This is a Markdown file that must
+adhere to the standards described in the [Markdown Syntax
+Guide](https://guides.github.com/features/mastering-markdown/). Remember, you
+can preview the contents of a committed Markdown file by clicking on the name
+of the file in your GitHub repository.

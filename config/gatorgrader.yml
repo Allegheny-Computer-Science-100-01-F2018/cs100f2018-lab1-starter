@@ -1,26 +1,17 @@
 ---
-name: gatorgrader-samplelab
+name: cmpsc-100-fall-2018-lab1
 break: true
-fastfail: false
 indent: 4
 ---
-src/main/java:
-        samplelab/SampleLabMain.java:
-            --exists
-            --single 1 --language Java
-            --multi 3 --language Java
-            --fragment "println(" --count 2
-            --fragment "new DataClass(" --count 1
-            --fragment "new Date(" --count 1 --exact
-        samplelab/DataClass.java:
-            --exists
-            --multi 1 --language Java
-            --fragment "int " --count 1
+src/main:
+    java:
+        labone/DisplayOutput.java:
+            --single 2 --language Java
+            --multi 2 --language Java
+            --fragment "println(" --count 4
+            --fragment "new Date(" --count 1
 writing/reflection.md:
-    mdl
-    --paragraphs 2
-    --words 6
---commits 2
-
-# if you wish to specify an exact gatorgrader command... must include --json
-# gg: --directory src/main/java/samplelab --file SampleLabMain.java --exists --json
+    --paragraphs 1
+    --words 150
+--commits 4
+--command "gradle -q --console plain run" --count 4
