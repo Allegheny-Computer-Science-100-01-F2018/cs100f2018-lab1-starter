@@ -13,6 +13,6 @@ src/main:
 writing/reflection.md:
     --paragraphs 1 --exact
     --words 150
---commits 6
+--commits 7
 --command "gradle -q --console plain run" --executes
 --command "gradle -q --console plain run" --count 4 --exact

@@ -48,8 +48,8 @@ before_script:
 # note: "gradle grade" will install GatorGrader and run all checks
 script:
   # lint the assignment's documentation
-  - mdl README.md
-  - proselint README.md
+  #- mdl README.md
+  #- proselint README.md
   # Java: see build.gradle
   - gradle --version
   - gradle clean
